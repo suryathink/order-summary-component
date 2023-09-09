@@ -12,26 +12,37 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 100vh;
+  font-family: Karal;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .container {
   width: 300px;
   height: 500px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-top: 40px;
+  
+
 }
 .upper-box {
   background-color: whitesmoke;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .upper-box img {
   width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .lower-box {
   background-color: hsl(225, 100%, 98%);
   height: 70%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .middle-div {
   display: flex;
