@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&family=Lexend+Deca&family=Outfit:wght@600;700&family=Poppins:wght@100&family=Red+Hat+Display:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.upper-box {
+  background-color: whitesmoke;
+}
+.upper-box img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.lower-box {
+  background-color: hsl(225, 100%, 98%);
+  height: 70%;
+}
+.middle-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  background-color: hsl(225, 22%, 96%);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.payment-btn {
+  background-color: hsl(245, 75%, 52%);
+  font-size: 15px;
+  color: hsl(225, 100%, 98%);
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.cancel-order-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.order-summary {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.order-para {
+  display: flex;
+}
+
+.order-para p {
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
+}
+
+.order-para p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.order-para {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.order-para p {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  max-width: 80%;
+}
+
+.heading-text p {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+.heading-text h6 {
+  font-size: 14px;
+}
+
+.cancel-order-p {
+  color: hsl(224, 23%, 55%);
+}
